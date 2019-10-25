@@ -10,9 +10,7 @@
 
     <name>center</name>
     <description>Demo Center Monitor project for Spring Boot</description>
-	<configuration>
-		<mainClass>com.springboot.cloud.center.bus.BusApplication</mainClass>
-	</configuration>
+
 
     <parent>
         <groupId>com.springboot.cloud</groupId>
@@ -23,4 +21,11 @@
     <modules>
         <module>bus</module>
     </modules>
+	<plugin>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-maven-plugin</artifactId>
+		<configuration>
+			<mainClass>com.springboot.cloud.center.bus.BusApplication</mainClass>
+		</configuration>
+	</plugin>
 </project>
