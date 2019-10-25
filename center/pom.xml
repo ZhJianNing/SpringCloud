@@ -10,6 +10,7 @@
 
     <name>center</name>
     <description>Demo Center Monitor project for Spring Boot</description>
+	<configuration>com.springboot.cloud.center.bus.BusApplication</configuration>
 
     <parent>
         <groupId>com.springboot.cloud</groupId>
