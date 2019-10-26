@@ -38,14 +38,6 @@
                     </resources>
                 </configuration>
             </plugin>
-            <!--指定主类-->
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <mainClass>com.springboot.cloud.center.bus.BusApplication</mainClass>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
 
